@@ -42,7 +42,7 @@
 	},
 	"main": "index.js",
 	"dependencies": {
-		"@rocket.chat/sdk": "^0.1.0",
+		"@rocket.chat/sdk": "git+https://github.com/suranc/Rocket.Chat.js.SDK.git#array-fix",
 		"hubot": "3"
 	},
 	"peerDependencies": {
