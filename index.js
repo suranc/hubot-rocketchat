@@ -59,7 +59,7 @@ class RocketChatBotAdapter extends Adapter {
     driver.useLog(this.robot.logger)
     driver.connect({
       host: config.url,
-      useSsl: config.sslEnabled
+      //useSsl: config.sslEnabled
     })
       .catch((err) => {
         this.robot.logger.error(this.robot.logger.error(`Unable to connect: ${JSON.stringify(err)}`))
